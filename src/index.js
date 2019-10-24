@@ -2,6 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 /**test**/
+class overLoad extends React.Component {
+  render () {
+    return (
+      <div> so sad </div>
+    )
+  }
+}
 class Square extends React.Component {
     constructor (props) {
         super(props)
